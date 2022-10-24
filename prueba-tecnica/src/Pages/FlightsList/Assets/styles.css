@@ -1,0 +1,57 @@
+body {
+    margin: 0%;
+}
+
+.flight-container {
+    margin: 5%;
+    border: 1px solid black;
+    display: grid;
+    height: 300px;
+    grid-template-columns: 80% 20%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.flight-details {
+    display: grid;
+    /* grid-template-rows: 50% 50%; */
+    border: 2px dotted blue;
+}
+
+.flight-price {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.flight-titles {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    border: 1px solid pink;
+    justify-content: center;
+}
+
+.hour-depart {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.airline {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 14px;
+    max-width: 150px
+}
+
+.flight-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

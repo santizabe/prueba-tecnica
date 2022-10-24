@@ -1,0 +1,48 @@
+body {
+    background-color: aliceblue;
+    align-items: center;
+}
+
+.form-container {
+    background-color: white;
+    border: 1px solid black;
+    margin: 5%;
+    margin-left: 35%;
+    padding: 15px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.document {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 5px;
+}
+
+.doc-selector {
+    margin-bottom: 5px;
+}
+
+.country {
+    display: grid;
+    grid-template-columns: 15% 75%;
+    margin-bottom: 5px;
+}
+
+.country-selector {
+    margin-bottom: 5px;
+    margin-right: 40px;
+}
